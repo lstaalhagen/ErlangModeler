@@ -1,52 +1,18 @@
-# Prerequisites
-*.d
+*.opt64.i0.pr.obj
+*.dev64.i0.pr.obj
+*.opt32.i0.pr.obj
+*.dev32.i0.pr.obj
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+*.opt64.i0.nt.dll
+*.opt64.i0.nt.dll.manifest
+*.opt64.i0.nt.exp
+*.opt64.i0.nt.lib
 
-# Linker output
-*.ilk
-*.map
-*.exp
+*.pr.c
+*.pr.cpp
 
-# Precompiled Headers
-*.gch
-*.pch
+*/*-DES-*.desinfo
+*/*-DES-*.ef
+*/*-DES-*.ov
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+*/*-DES-*.olf.dir

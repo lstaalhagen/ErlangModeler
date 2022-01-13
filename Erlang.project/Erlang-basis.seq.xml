@@ -8,7 +8,7 @@
 				<attribute name="network" type="typed file" spectype="4" value="Erlang-basis"/>
 				<attribute name="probe file" type="typed file" spectype="27" value="Erlang-basis"/>
 				<attribute name="vector file" type="string" spectype="29" value="Erlang-basis"/>
-				<attribute name="duration" type="double" value="4.0"/>
+				<attribute name="duration" type="double" value="24"/>
 				<attribute name="environment files" type="textlist"/>
 				<attribute name="anim hist" type="string" spectype="40" value="Erlang-basis"/>
 				<attribute name="SLA probe files" type="textlist"/>
@@ -23,8 +23,8 @@
 				<attribute name="checkpoint keep_last_N" type="integer" value="-1"/>
 			</simset-attributes>
 			<promoted-attribute-list>
-				<promoted-attribute name="Logical Network.Users.Offered Traffic" value="5 TO 10 BY 5"/>
-				<promoted-attribute name="Logical Network.Exchange.ExchangeLogic.NumResources" value="5 TO 10 BY 5"/>
+				<promoted-attribute name="Logical Network.Users.Offered Traffic" value="0 TO 20 BY 0.5"/>
+				<promoted-attribute name="Logical Network.Exchange.ExchangeLogic.NumResources" value="1 TO 5 BY 1"/>
 			</promoted-attribute-list>
 			<attr-info-list>
 				<attr-info name="Logical Network.Users.Offered Traffic" type="double">
@@ -42,6 +42,207 @@
 				<selected-run id="1"/>
 				<selected-run id="2"/>
 				<selected-run id="3"/>
+				<selected-run id="4"/>
+				<selected-run id="5"/>
+				<selected-run id="6"/>
+				<selected-run id="7"/>
+				<selected-run id="8"/>
+				<selected-run id="9"/>
+				<selected-run id="10"/>
+				<selected-run id="11"/>
+				<selected-run id="12"/>
+				<selected-run id="13"/>
+				<selected-run id="14"/>
+				<selected-run id="15"/>
+				<selected-run id="16"/>
+				<selected-run id="17"/>
+				<selected-run id="18"/>
+				<selected-run id="19"/>
+				<selected-run id="20"/>
+				<selected-run id="21"/>
+				<selected-run id="22"/>
+				<selected-run id="23"/>
+				<selected-run id="24"/>
+				<selected-run id="25"/>
+				<selected-run id="26"/>
+				<selected-run id="27"/>
+				<selected-run id="28"/>
+				<selected-run id="29"/>
+				<selected-run id="30"/>
+				<selected-run id="31"/>
+				<selected-run id="32"/>
+				<selected-run id="33"/>
+				<selected-run id="34"/>
+				<selected-run id="35"/>
+				<selected-run id="36"/>
+				<selected-run id="37"/>
+				<selected-run id="38"/>
+				<selected-run id="39"/>
+				<selected-run id="40"/>
+				<selected-run id="41"/>
+				<selected-run id="42"/>
+				<selected-run id="43"/>
+				<selected-run id="44"/>
+				<selected-run id="45"/>
+				<selected-run id="46"/>
+				<selected-run id="47"/>
+				<selected-run id="48"/>
+				<selected-run id="49"/>
+				<selected-run id="50"/>
+				<selected-run id="51"/>
+				<selected-run id="52"/>
+				<selected-run id="53"/>
+				<selected-run id="54"/>
+				<selected-run id="55"/>
+				<selected-run id="56"/>
+				<selected-run id="57"/>
+				<selected-run id="58"/>
+				<selected-run id="59"/>
+				<selected-run id="60"/>
+				<selected-run id="61"/>
+				<selected-run id="62"/>
+				<selected-run id="63"/>
+				<selected-run id="64"/>
+				<selected-run id="65"/>
+				<selected-run id="66"/>
+				<selected-run id="67"/>
+				<selected-run id="68"/>
+				<selected-run id="69"/>
+				<selected-run id="70"/>
+				<selected-run id="71"/>
+				<selected-run id="72"/>
+				<selected-run id="73"/>
+				<selected-run id="74"/>
+				<selected-run id="75"/>
+				<selected-run id="76"/>
+				<selected-run id="77"/>
+				<selected-run id="78"/>
+				<selected-run id="79"/>
+				<selected-run id="80"/>
+				<selected-run id="81"/>
+				<selected-run id="82"/>
+				<selected-run id="83"/>
+				<selected-run id="84"/>
+				<selected-run id="85"/>
+				<selected-run id="86"/>
+				<selected-run id="87"/>
+				<selected-run id="88"/>
+				<selected-run id="89"/>
+				<selected-run id="90"/>
+				<selected-run id="91"/>
+				<selected-run id="92"/>
+				<selected-run id="93"/>
+				<selected-run id="94"/>
+				<selected-run id="95"/>
+				<selected-run id="96"/>
+				<selected-run id="97"/>
+				<selected-run id="98"/>
+				<selected-run id="99"/>
+				<selected-run id="100"/>
+				<selected-run id="101"/>
+				<selected-run id="102"/>
+				<selected-run id="103"/>
+				<selected-run id="104"/>
+				<selected-run id="105"/>
+				<selected-run id="106"/>
+				<selected-run id="107"/>
+				<selected-run id="108"/>
+				<selected-run id="109"/>
+				<selected-run id="110"/>
+				<selected-run id="111"/>
+				<selected-run id="112"/>
+				<selected-run id="113"/>
+				<selected-run id="114"/>
+				<selected-run id="115"/>
+				<selected-run id="116"/>
+				<selected-run id="117"/>
+				<selected-run id="118"/>
+				<selected-run id="119"/>
+				<selected-run id="120"/>
+				<selected-run id="121"/>
+				<selected-run id="122"/>
+				<selected-run id="123"/>
+				<selected-run id="124"/>
+				<selected-run id="125"/>
+				<selected-run id="126"/>
+				<selected-run id="127"/>
+				<selected-run id="128"/>
+				<selected-run id="129"/>
+				<selected-run id="130"/>
+				<selected-run id="131"/>
+				<selected-run id="132"/>
+				<selected-run id="133"/>
+				<selected-run id="134"/>
+				<selected-run id="135"/>
+				<selected-run id="136"/>
+				<selected-run id="137"/>
+				<selected-run id="138"/>
+				<selected-run id="139"/>
+				<selected-run id="140"/>
+				<selected-run id="141"/>
+				<selected-run id="142"/>
+				<selected-run id="143"/>
+				<selected-run id="144"/>
+				<selected-run id="145"/>
+				<selected-run id="146"/>
+				<selected-run id="147"/>
+				<selected-run id="148"/>
+				<selected-run id="149"/>
+				<selected-run id="150"/>
+				<selected-run id="151"/>
+				<selected-run id="152"/>
+				<selected-run id="153"/>
+				<selected-run id="154"/>
+				<selected-run id="155"/>
+				<selected-run id="156"/>
+				<selected-run id="157"/>
+				<selected-run id="158"/>
+				<selected-run id="159"/>
+				<selected-run id="160"/>
+				<selected-run id="161"/>
+				<selected-run id="162"/>
+				<selected-run id="163"/>
+				<selected-run id="164"/>
+				<selected-run id="165"/>
+				<selected-run id="166"/>
+				<selected-run id="167"/>
+				<selected-run id="168"/>
+				<selected-run id="169"/>
+				<selected-run id="170"/>
+				<selected-run id="171"/>
+				<selected-run id="172"/>
+				<selected-run id="173"/>
+				<selected-run id="174"/>
+				<selected-run id="175"/>
+				<selected-run id="176"/>
+				<selected-run id="177"/>
+				<selected-run id="178"/>
+				<selected-run id="179"/>
+				<selected-run id="180"/>
+				<selected-run id="181"/>
+				<selected-run id="182"/>
+				<selected-run id="183"/>
+				<selected-run id="184"/>
+				<selected-run id="185"/>
+				<selected-run id="186"/>
+				<selected-run id="187"/>
+				<selected-run id="188"/>
+				<selected-run id="189"/>
+				<selected-run id="190"/>
+				<selected-run id="191"/>
+				<selected-run id="192"/>
+				<selected-run id="193"/>
+				<selected-run id="194"/>
+				<selected-run id="195"/>
+				<selected-run id="196"/>
+				<selected-run id="197"/>
+				<selected-run id="198"/>
+				<selected-run id="199"/>
+				<selected-run id="200"/>
+				<selected-run id="201"/>
+				<selected-run id="202"/>
+				<selected-run id="203"/>
+				<selected-run id="204"/>
 			</selected-run-list>
 			<traffic-trend count="1" units="month" time-gap="1.0" storage-method="each-simulation" import-options="nothing" method="regular-simple" growth-rate="10"/>
 		</simset>
